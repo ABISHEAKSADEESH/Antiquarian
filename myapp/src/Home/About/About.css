@@ -1,0 +1,65 @@
+.About-all{
+    height:400px;
+    width: 100%;
+    background-image:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(bg2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    /* position:fixed; */
+    display: flex;
+    /* margin: 10px; */
+}
+.About-Image{
+    height:300px;
+    width: 300px;
+    background-image:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(pfp.jpg) ;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    /* position: absolute */
+    margin-left: 90px;
+    margin-top: 50px;
+
+}
+.About-Content{
+    width: 500px;
+    margin-left: 90px;
+}
+.About-Content h1{
+    color: #f78c00;
+    margin-left: 180px;
+}
+.About-Content h2{
+    color: rgb(178, 178, 178);
+    cursor: pointer;
+    transition: 0.2s;
+}
+.About-Content h2:hover{
+    color: #f78c00;
+}
+.About-Content p{
+    font-size:small;
+    margin-left: 20px;
+    color: rgb(155, 155, 155);
+}
+.About-Content button{
+    background-color: #999;
+    border: none;
+    justify-content: space-between;
+    margin-left: 30px;
+    height: 22px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.About-Content button:hover{
+    background-color: #f78c00;
+    color: white;
+}
+.About-Content a{
+    text-decoration: none;
+    color: black;
+    transition: .3s;
+}
+.About-Content a:hover{
+    color: white;
+}
